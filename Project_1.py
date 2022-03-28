@@ -266,5 +266,13 @@ np.random.normal(loc=0.0, scale=1.0, size=100)
 # In[ ]:
 
 
-
+list=[]
+new=[]
+for x in white_noise:
+    item=0
+    new=df.MA_adjClose[str(item)]+white_noise[str(item)]
+    list.append(new[0])
+    new.remove[0]
+    item=item+1
+print(list)
 
